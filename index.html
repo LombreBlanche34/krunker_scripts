@@ -256,47 +256,42 @@
 
     <script>
         // Configuration des scripts - AJOUTEZ VOS SCRIPTS ICI
-        const scripts = [
-                    {
-                name: "Kovaaks Sandbox (soon)",
-                description: "Krunker but its kovaaks",
-                fullDescription: "you dont ear ur weapon sounds, u have a sound for every kills and headshot, you can pitch the hit sound (like aimbeast by default)",
-                github: "",
-                install: "",
-                tags: ["Userscript", "In-Game"],
-                icon: "fa-bullseye",
-                gradient: "from-purple-500 to-pink-600",
+        const scripts = [{
+                name: "Settings Manager",
+                description: "Tweak every settings for my modules !",
+                fullDescription: "by pressing F9, you will be able to change every settings of all my modules (if they are loaded in ur computer)",
+                github: "https://github.com/LombreBlanche34/krunker_scripts_settings",
+                install: "https://github.com/LombreBlanche34/krunker_scripts_settings/blob/main/settings.js",
+                tags: ["Userscript", "In-Game", "Tools", "Utility"],
+                icon: "fa-cog",
+                gradient: "from-slate-500 to-gray-600",
                 features: [
-                    "You dont ear ur weapon",
-                    "Kill sound and Headshot sound",
-                    "pitch hit sound",
-                    "bullet low indicator",
+                    "Centralized settings panel (F9 hotkey)",
+                    "Manage all module configurations in one place",
+                    "Persistent configuration storage",
+                    "Clean and intuitive interface",
+                    "Compatible with all my modules",
+                    "No need to edit code manually",
+                    "Easy import/export of settings"
                 ],
-                images: []
+                images: ["https://github.com/LombreBlanche34/krunker_scripts_settings/raw/main/image.png?raw=true"]
             },
             {
-                name: "Ranked Match Statistics",
-                description: "Displays detailed charts and statistics for your ranked matches in the match history tab",
-                fullDescription: "A comprehensive userscript that enhances the in-game match history tab with detailed visual analytics. View performance trends, win/loss ratios, KDA statistics, and rank progression through interactive charts. Perfect for competitive players who want to track their improvement over time.",
-                github: "https://github.com/LombreBlanche34/krunker_ranked_stats",
-                install: "https://github.com/LombreBlanche34/krunker_ranked_stats/blob/main/ranked_stats.js",
-                tags: ["Userscript", "In-Game", "UI"],
-                icon: "fa-chart-line",
-                gradient: "from-blue-500 to-indigo-600",
+                name: "Kovaaks Sandbox",
+                description: "Transform Krunker into a Kovaak's-like aim trainer with custom sounds and effects",
+                fullDescription: "A comprehensive aim training enhancement that removes your weapon sounds, adds kill sounds, and implements pitch-based hit feedback. Perfect for players who want a more focused aim training experience similar to Kovaaks.",
+                github: "https://github.com/LombreBlanche34/krunker_kovaaks_sim",
+                install: "https://github.com/LombreBlanche34/krunker_kovaaks_sim/blob/main/kovaaks_simulator.js",
+                tags: ["Userscript", "In-Game", "Enhancement", "Performance"],
+                icon: "fa-bullseye",
+                gradient: "from-amber-500 to-orange-600",
                 features: [
-                    "Interactive ranked performance charts",
-                    "Detailed statistics per match (K/D/A)",
-                    "Rank progression tracking over time",
-                    "Win/loss ratio with visualization",
-                    "Performance trend analysis",
-                    "Interface integrated into match history tab",
-                    "Uses Chart.js for smooth graphics",
-                    "Automatically updated data"
+                    "Removes your weapon firing sounds",
+                    "Custom kill sound",
+                    "Pitch effect on hitmarkers",
+                    "Lightweight and optimized for smooth gameplay"
                 ],
-                images: [
-                    "https://raw.githubusercontent.com/LombreBlanche34/krunker_ranked_stats/refs/heads/main/img/example_1.png",
-                    "https://raw.githubusercontent.com/LombreBlanche34/krunker_ranked_stats/refs/heads/main/img/example_2.png"
-                ]
+                images: []
             },
             {
                 name: "Clan Level Statistics & Chart",
@@ -427,6 +422,20 @@
                     "Native game sounds for an immersive experience",
                     "Compatible with all game modes",
                     "Simple and automatic installation"
+                ],
+                images: []
+            },
+            {
+                name: "Bullet Low",
+                description: "Change the color of ur ammo when it goes below a certain %",
+                fullDescription: "Change the color of ur ammo when it goes below a certain % (#FF0000 and 25% by default)",
+                github: "https://github.com/LombreBlanche34/krunker_bullet_low/",
+                install: "https://github.com/LombreBlanche34/krunker_bullet_low/blob/main/bullet_low.js",
+                tags: ["Userscript", "In-Game"],
+                icon: "fa-bullseye",
+                gradient: "from-purple-500 to-pink-600",
+                features: [
+                    "Custom amo color",
                 ],
                 images: []
             }
